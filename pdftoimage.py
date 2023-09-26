@@ -1,7 +1,7 @@
 import io
 import os
 import subprocess
-
+# pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 package_names = ["PyPDF2", "pytesseract"]
 for package in package_names:
     try:
